@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays a site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+
+  <body>
+    <div class="card">
+        <div class="image">
+          <picture>
+            <source srcset="images/image-product-mobile.jpg" aria-describedby="perfume_name" media="(max-width: 672px)">
+            <source srcset="images/image-product-desktop.jpg" aria-describedby="perfume_name" media="(max-width: 1500px)">
+            <img src="images/image-product-mobile.jpg" alt="Bottle of Gabrielle Essence Eau De Parfum" aria-describedby="perfume_name">
+          </picture>
+        </div>
+
+      <div class="text">
+        <p class="category">Perfume</p>
+        <div class="description">
+          <h1 id="perfume_name">Gabrielle Essence Eau De Parfum</h1>
+
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+
+        <div class="price">
+          <p class="large">$149.99<p>
+          <p class="small">$169.99</p>
+        </div>
+
+        <button><img src="images/icon-cart.svg" alt="">Add to Cart</button>
+      </div>
+    </div>
+
+  </body>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/StiTchD-WireD">Shanelle</a>.
+  </footer>
+
+</html>

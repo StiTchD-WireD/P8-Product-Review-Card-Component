@@ -131,8 +131,8 @@ button {
 }
 
 button > img {
-    margin-right: max(.2rem, 1vh);
     width: 1rem;
+    margin-right: max(.2rem, 1vh);
 }
 
 button:hover {
@@ -149,7 +149,7 @@ footer {
 }
 
 footer > a {
-    color: var(--Green-500);
+    color: var(--Green-700);
     text-decoration: none;
 }
 
@@ -163,9 +163,10 @@ footer > a:hover {
         flex-direction: row;
         min-width: 0;
         max-width: min(45rem, 90%);
-        height: 450px;
+        height: 32.14rem;
+        margin: 15% auto;
         align-items: center;
-        margin: 10% auto;
+
     }
 
     .image {
@@ -229,7 +230,11 @@ footer > a:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    button:hover {
+    button {
         transition: none;
+    }
+
+    button:hover {
+        background-color: var(--Green-700);
     }
 }

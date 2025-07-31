@@ -151,11 +151,12 @@ footer {
 
 footer > a {
     color: var(--Green-700);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 footer > a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 @media (min-width: 42rem) {

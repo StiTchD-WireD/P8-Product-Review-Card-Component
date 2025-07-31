@@ -150,7 +150,7 @@ footer {
 }
 
 footer > a {
-    color: var(--Green-700);
+    color: var(--Black);
     text-decoration: underline;
 }
 

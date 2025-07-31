@@ -32,7 +32,10 @@
           <p class="small">$169.99</p>
         </div>
 
-        <button><img src="images/icon-cart.svg" alt="">Add to Cart</button>
+        <form action="/add-to-cart" method="post">
+          <input type="hidden" name="product_id" value="123">
+          <button type="submit"><img src="images/icon-cart.svg" alt="">Add to Cart</button>
+        </form>
       </div>
     </div>
 

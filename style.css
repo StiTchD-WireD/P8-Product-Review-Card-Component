@@ -21,7 +21,7 @@
 
     /*Font*/
 
-    font-family: 'Montserret', sans-serif;
+    
     /* Weights: 500, 700*/
     --font-family: 'Fraunces', sans-serif;
     /* Weights: 700*/
@@ -30,6 +30,7 @@
 body {
     background-color: var(--Cream);
     display: block;
+    font-family: 'Montserret', sans-serif;
 }
 
 .card {
